@@ -1,0 +1,65 @@
+body
+{
+  background-color: #ccc;
+  color: black;
+}
+
+.carousel-inner img
+{
+  width: 100%
+  margin:auto;
+}
+
+@media(max-width: 600px)
+{
+  .carousel-caption{
+    display: none;
+}
+}
+
+.navbar
+{
+  font-family: sans-serif;
+  margin-bottom: 0px;
+  border: 0px;
+  font-size: 16px !important;
+  letter-spacing: 2px;
+}
+
+.navbar li a, .navbar .navbar-brand
+{
+  color: #ff0000;
+}
+
+.navbar-nav li a:hover
+{
+  color: #000;
+}
+
+.navbar-nav li.active a{
+  color: #fff;
+  background-color: #000;
+}
+
+.footer
+{
+  background-color: #2d2d30;
+  color: #fff;
+  padding: 30px;
+}
+
+.footer a
+{
+  color: maroon;
+  font-weight: bold;
+}
+
+.footer a:hover
+{
+  color: red;
+} 
+#tour
+{
+  background-color: #162633;
+  color: lightgrey;
+}
